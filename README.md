@@ -24,7 +24,7 @@ The database schema consists of the following tables:
 5. **ReturnStatus**: Tracks book return details including customer ID, book name, and return date.
 6. **Books**: Stores information about books such as title, category, rental price, author, and publisher.
 
-Refer to the [SQL schema](schema.sql) for details.
+Refer to the [[SQL schema](schema.sql)](https://github.com/anwersadath/Library-Management-System/blob/main/Library_Management_System.sql) for details.
 
 ## Queries
 
@@ -36,14 +36,14 @@ The project includes various SQL queries to perform operations such as:
 - Calculating total book counts by category.
 - and more.
 
-Refer to the [Queries](queries.sql) file for sample SQL queries.
+Refer to the Library_Management_System.sql file for sample SQL queries.
 
 ## Setup
 
 To set up the project:
 
 1. Clone this repository.
-2. Import the SQL schema (`schema.sql`) into your RDBMS.
+2. Import the SQL schema Library_Management_System.sql into your RDBMS.
 3. Optionally, populate the database with sample data using the provided SQL script.
 4. Run the queries to interact with the database.
 
